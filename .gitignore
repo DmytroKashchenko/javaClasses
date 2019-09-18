@@ -1,4 +1,5 @@
 pom.xml
-project-test.iml
+*.iml
+*.log
 .idea/*
 /target/*
