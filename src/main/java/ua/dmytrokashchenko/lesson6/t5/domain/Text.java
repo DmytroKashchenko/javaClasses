@@ -1,0 +1,21 @@
+package ua.dmytrokashchenko.lesson6.t5;
+
+import java.util.List;
+
+public class Text {
+    private final Sentence header;
+    private final List<Sentence> sentences;
+
+    public Text(Sentence header, List<Sentence> sentences) {
+        this.header = header;
+        this.sentences = sentences;
+    }
+
+    public Sentence getHeader() {
+        return header;
+    }
+
+    public List<Sentence> getSentences() {
+        return sentences;
+    }
+}
