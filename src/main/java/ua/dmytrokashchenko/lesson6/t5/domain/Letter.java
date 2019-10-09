@@ -1,6 +1,6 @@
-package ua.dmytrokashchenko.lesson6.t5;
+package ua.dmytrokashchenko.lesson6.t5.domain;
 
-public abstract class Letter extends Symbol {
+public class Letter extends Symbol {
     public Letter(char symbol) {
         super(symbol);
     }

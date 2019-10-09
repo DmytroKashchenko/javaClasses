@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson10;
+package ua.dmytrokashchenko.lesson10.example1;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +25,6 @@ public class Main {
 
 //        GenericContainer<Number> numberGenericContainer = new GenericContainer<Integer>(1);
 
-        
+
     }
 }

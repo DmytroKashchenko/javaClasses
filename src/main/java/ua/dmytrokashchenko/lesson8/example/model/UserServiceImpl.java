@@ -1,5 +1,6 @@
-package ua.dmytrokashchenko.lesson8.example;
+package ua.dmytrokashchenko.lesson8.example.model;
 
+@Component
 public class UserServiceImpl implements UserService {
 
 //    @Inject

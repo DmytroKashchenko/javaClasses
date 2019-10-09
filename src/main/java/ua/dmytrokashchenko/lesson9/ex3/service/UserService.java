@@ -1,4 +1,6 @@
-package ua.dmytrokashchenko.lesson9.ex3;
+package ua.dmytrokashchenko.lesson9.ex3.service;
+
+import ua.dmytrokashchenko.lesson9.ex3.domain.User;
 
 import java.util.List;
 

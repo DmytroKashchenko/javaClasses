@@ -1,10 +1,13 @@
-package ua.dmytrokashchenko.lesson7.homework.repository;
+package ua.dmytrokashchenko.consoleapp.repository;
 
-import ua.dmytrokashchenko.lesson7.homework.domain.Department;
+import org.springframework.stereotype.Repository;
+import ua.dmytrokashchenko.consoleapp.domain.Department;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class DepartmentRepositoryImpl implements DepartmentRepository {
     private Map<Long, Department> idToDepartment = new HashMap<>();
     private static Long counter = 0L;
@@ -27,5 +30,10 @@ public class DepartmentRepositoryImpl implements DepartmentRepository {
     @Override
     public Department deleteById(Long id) {
         return idToDepartment.remove(id);
+    }
+
+    @Override
+    public ArrayList<Department> findDepartments() {
+        return new ArrayList<Department>(idToDepartment.values());
     }
 }

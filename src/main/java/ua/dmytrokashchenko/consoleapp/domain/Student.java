@@ -1,11 +1,14 @@
-package ua.dmytrokashchenko.lesson7.homework.domain;
+package ua.dmytrokashchenko.consoleapp.domain;
 
 import java.time.LocalDate;
+import java.util.Optional;
 
 public class Student {
     private final Long id;
     private final String name;
     private final String surname;
+//    private final Optional<String> name;
+//    private final Optional<String> surname;
     private final LocalDate birthday;
     private final Address address;
     private final Department department;
@@ -30,10 +33,12 @@ public class Student {
     }
 
     public String getName() {
+//        return name.orElseGet(() -> "Empty");
         return name;
     }
 
     public String getSurname() {
+//        return surname.orElseGet(() -> "Empty");
         return surname;
     }
 
@@ -57,16 +62,25 @@ public class Student {
         return email;
     }
 
+    public String getStudyGroup() {
+        return studyGroup;
+    }
+
     @Override
     public String toString() {
-        return id.toString() + "\t" + name + " " + surname + "\t" + birthday.toString() + "\t"
-                + department.toString() + "\t" + studyGroup;
+        return id.toString() + "\t" +
+                name + " " +
+                surname + "\t" +
+                birthday.toString() + "\t" + department.toString() +
+                "\t" + studyGroup;
     }
 
     public static class Builder {
         private Long id;
         private String name;
         private String surname;
+//        private Optional<String> name;
+//        private Optional<String> surname;
         private LocalDate birthday;
         private Address address;
         private Department department;
@@ -88,11 +102,13 @@ public class Student {
 
         public Builder setName(String name) {
             this.name = name;
+//            this.name = Optional.ofNullable(name);
             return this;
         }
 
         public Builder setSurname(String surname) {
             this.surname = surname;
+//            this.name = Optional.ofNullable(surname);
             return this;
         }
 

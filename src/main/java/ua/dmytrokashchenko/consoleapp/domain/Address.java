@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson7.homework.domain;
+package ua.dmytrokashchenko.consoleapp.domain;
 
 public class Address {
     private final String countryName;

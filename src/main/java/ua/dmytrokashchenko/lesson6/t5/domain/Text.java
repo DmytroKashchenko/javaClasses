@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson6.t5;
+package ua.dmytrokashchenko.lesson6.t5.domain;
 
 import java.util.List;
 
@@ -17,5 +17,10 @@ public class Text {
 
     public List<Sentence> getSentences() {
         return sentences;
+    }
+
+    @Override
+    public String toString() {
+        return header + "\n" + sentences;
     }
 }

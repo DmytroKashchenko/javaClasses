@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson8.example;
+package ua.dmytrokashchenko.lesson8.example.model;
 
 public class User {
 

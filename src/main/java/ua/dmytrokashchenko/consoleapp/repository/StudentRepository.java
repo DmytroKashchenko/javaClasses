@@ -1,8 +1,10 @@
-package ua.dmytrokashchenko.lesson7.homework.repository;
+package ua.dmytrokashchenko.consoleapp.repository;
 
-import ua.dmytrokashchenko.lesson7.homework.domain.Student;
+import ua.dmytrokashchenko.consoleapp.domain.Department;
+import ua.dmytrokashchenko.consoleapp.domain.Student;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface StudentRepository {
     // C
@@ -17,5 +19,5 @@ public interface StudentRepository {
     // D
     Student deleteById(Long id);
 
-    ArrayList<Student> getAllStudents();
+    List<Student> findStudents();
 }

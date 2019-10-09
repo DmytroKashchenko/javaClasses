@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson8.example;
+package ua.dmytrokashchenko.lesson8.example.model;
 
 import java.util.List;
 import java.util.Optional;

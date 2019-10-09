@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson10;
+package ua.dmytrokashchenko.lesson10.example2;
 
 public class B {
 }

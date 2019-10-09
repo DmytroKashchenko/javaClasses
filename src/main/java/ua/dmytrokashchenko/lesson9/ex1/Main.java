@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson9;
+package ua.dmytrokashchenko.lesson9.ex1;
 
 public class Main {
 

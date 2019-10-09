@@ -1,12 +1,13 @@
-package ua.dmytrokashchenko.lesson7.homework.repository;
+package ua.dmytrokashchenko.consoleapp.repository;
 
-import ua.dmytrokashchenko.lesson7.homework.domain.Student;
+import org.springframework.stereotype.Repository;
+import ua.dmytrokashchenko.consoleapp.domain.Student;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class StudentRepositoryImpl implements StudentRepository {
     private Map<Long, Student> idToStudents = new HashMap<>();
     private static Long counter = 0L;
@@ -32,7 +33,7 @@ public class StudentRepositoryImpl implements StudentRepository {
     }
 
     @Override
-    public ArrayList<Student> getAllStudents() {
+    public ArrayList<Student> findStudents() {
         return new ArrayList<Student>(idToStudents.values());
     }
 }

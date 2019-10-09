@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson11;
+package ua.dmytrokashchenko.lesson11.example1;
 
 public class example1 {
     public static class User {

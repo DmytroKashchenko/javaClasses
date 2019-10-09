@@ -1,4 +1,5 @@
 package ua.dmytrokashchenko.lesson11.example.domain;
 
-public class Role {
+public enum Role {
+    ADMIN
 }

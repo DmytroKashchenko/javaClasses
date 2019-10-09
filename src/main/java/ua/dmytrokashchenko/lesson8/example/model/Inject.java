@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson8.example;
+package ua.dmytrokashchenko.lesson8.example.model;
 
 
 import java.lang.annotation.ElementType;

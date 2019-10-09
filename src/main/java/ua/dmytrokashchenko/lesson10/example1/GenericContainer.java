@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson10;
+package ua.dmytrokashchenko.lesson10.example1;
 
 public class GenericContainer<T> {
     private T object;

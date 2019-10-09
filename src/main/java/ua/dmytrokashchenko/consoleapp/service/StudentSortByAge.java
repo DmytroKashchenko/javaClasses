@@ -1,6 +1,6 @@
-package ua.dmytrokashchenko.lesson7.homework.service;
+package ua.dmytrokashchenko.consoleapp.service;
 
-import ua.dmytrokashchenko.lesson7.homework.domain.Student;
+import ua.dmytrokashchenko.consoleapp.domain.Student;
 
 import java.util.Comparator;
 
