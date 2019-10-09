@@ -13,7 +13,7 @@ public class MyHashMapTest {
     private MyHashMap<Integer, String> map;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         map = new MyHashMap<>();
         map.put(1, "String1");
         map.put(3, "Some string");

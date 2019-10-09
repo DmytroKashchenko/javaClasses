@@ -7,7 +7,7 @@ public interface MyMap<K, V> {
     // loading 80% -> x2 capacity
     // + tests!!!!!
     // collision -> linked list
-    // if 1 bucked > 8 node - new capacity!
+    // if 1 bucked has > 8 node - new capacity!
 
     V put(K key, V value);
 

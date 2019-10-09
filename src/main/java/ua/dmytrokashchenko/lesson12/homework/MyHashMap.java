@@ -20,7 +20,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
     }
 
     private int mapFunc(K key) {
-        return key.hashCode() % capacity;
+        return Math.abs(key.hashCode() % capacity);
     }
 
     @SuppressWarnings("unchecked")
