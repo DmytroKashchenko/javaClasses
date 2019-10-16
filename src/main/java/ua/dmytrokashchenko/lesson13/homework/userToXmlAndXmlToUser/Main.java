@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson13.homework.task2;
+package ua.dmytrokashchenko.lesson13.homework.userToXmlAndXmlToUser;
 
 public class Main {
     public static void main(String[] args) {

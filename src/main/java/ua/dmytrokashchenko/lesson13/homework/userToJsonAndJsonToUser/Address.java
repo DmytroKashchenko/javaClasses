@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson13.homework.task2;
+package ua.dmytrokashchenko.lesson13.homework.userToJsonAndJsonToUser;
 
 public class Address {
     private String city;

@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson13.homework.task1;
+package ua.dmytrokashchenko.lesson13.homework.fileStatistic;
 
 import java.io.IOException;
 import java.nio.file.Files;

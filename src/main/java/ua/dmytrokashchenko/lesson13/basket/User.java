@@ -1,6 +1,6 @@
 package ua.dmytrokashchenko.lesson13.basket;
 
-import ua.dmytrokashchenko.lesson13.homework.task2.Address;
+import ua.dmytrokashchenko.lesson13.homework.userToXmlAndXmlToUser.Address;
 
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;

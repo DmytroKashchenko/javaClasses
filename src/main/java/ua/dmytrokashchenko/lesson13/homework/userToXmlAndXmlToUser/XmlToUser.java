@@ -1,4 +1,4 @@
-package ua.dmytrokashchenko.lesson13.homework.task2;
+package ua.dmytrokashchenko.lesson13.homework.userToXmlAndXmlToUser;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
