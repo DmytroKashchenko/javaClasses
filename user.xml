@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<user id="11">
+    <address>
+        <buildingNumber>12</buildingNumber>
+        <city>Kyiv</city>
+        <street>first street</street>
+    </address>
+    <age>28</age>
+    <email>user@email.com</email>
+    <userName>Dmytro</userName>
+</user>
